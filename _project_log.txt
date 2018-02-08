@@ -1,0 +1,75 @@
+December 27
+1. Connected and configured database
+- added dbconfig.php
+- connected db to project
+- Source: http://www.mysqltutorial.org/php-connecting-to-mysql-database/
+
+2. Created loginpage.html
+
+3. Developed login module (w/o user type restrictions)
+- source: https://www.youtube.com/watch?v=V3DYDOWh678&t=319s
+- added logout.php
+- added php code in index.php for login
+
+4. Added 'New Ticket' Button
+
+5. Fixed upper right nav icons whoo!
+- source: https://codepen.io/T-P/pen/WGVXza
+
+December 29
+1. Added service_ticket.php
+2. Fixed layout but not yet final
+3. Submit ticket
+- source: https://www.sitepoint.com/community/t/inserting-into-two-tables-at-same-time/39642/3
+- source: SAD code last year
+
+December 30
+1. Fixed select options for dropdown by fetching values based on enum on database whoo
+- source: https://jadendreamer.wordpress.com/2011/03/16/php-tutorial-put-mysql-enum-values-into-drop-down-select-box/
+
+Jan 1
+1. Fixed UI again - sidenav but still needs working
+2. Added JS code for showing/hiding service and access forms
+3. Coded the UI for the access form.
+
+Jan 2
+1. Developed submitting access ticket
+2. Added sweet alert to sources for alerts when submitting ticket
+
+Jan 3
+1. FIXED TICKET NUMBER FORMAT HELL YEAH.
+2. Set date prepared to current date
+- source https://stackoverflow.com/questions/12346381/set-date-in-input-type-date
+
+
+Jan 4
+1. Fixed select query without repeat ticket_id and ticket_number columns
+- source: https://stackoverflow.com/questions/1956057/mysql-removing-duplicate-columns-on-left-join-3-tables
+2. style data from db
+- source: https://stackoverflow.com/questions/13210552/how-to-style-php-echo-output-with-span
+- source: https://www.sitepoint.com/community/t/assigning-styles-in-php-mysql-table/1511/6
+
+
+Jan 5-9
+1. Added details.php
+2. Added dashboard.php
+3. Fixed the mysql query for details.php
+4. Fixed swal by displaying ticket number (ty donna)
+
+Change password during first login:
+https://stackoverflow.com/questions/8893332/changing-user-password-in-php-and-mysql
+
+Jan 14
+1. Merged donna's files whoo
+
+
+Jan 16-17
+1. Added count in sidenav through blue badges
+2. Assign ticket to agent
+3. Slightly fixed other links of sidenav such as in progress, resolved links but not yet completely working data
+4. Used templates
+5. Renames javascript.js to datatables.js
+
+
+Category sorting button switch statement:
+https://stackoverflow.com/questions/7876868/php-get-and-undefined-index
